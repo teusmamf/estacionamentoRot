@@ -19,7 +19,7 @@ const PartnerCard = (props) => {
   useEffect(() => {
     const loadImage = async () => {
       try {
-        const image = await import(`../assets/images/Partners/${props.photo}`);
+        const image = await import(`./images/Partners/${props.photo}`);
         setImageSrc(image.default);
       } catch (error) {
         console.error("Erro ao carregar a imagem:", error);

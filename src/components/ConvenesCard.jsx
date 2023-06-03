@@ -20,7 +20,7 @@ const ConvenesCard = (props) => {
     const loadImage = async () => {
       try {
         /* @vite-ignore */
-        const image = await import(`../assets/images/convenes/${props.photo}`);
+        const image = await import(`../../public/assets/images/convenes/${props.photo}`);
         setImageSrc(image.default);
       } catch (error) {
         console.error("Erro ao carregar a imagem:", error);
