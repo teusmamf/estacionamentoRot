@@ -1,9 +1,9 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
-import wallpaper from '../assets/images/parking (1).png';
-import wallpaper2 from '../assets/images/camera-de-seguranca.png'
-import wallpaper3 from '../assets/images/employees.png'
+import wallpaper from '../../public/assets/images/parking (1).png';
+import wallpaper2 from '../../public/assets/images/camera-de-seguranca.png'
+import wallpaper3 from '../../public/assets/images/employees.png'
 
 const ServicesText = () => {
   const [ref1, inView1] = useInView({

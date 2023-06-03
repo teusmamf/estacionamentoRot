@@ -1,6 +1,6 @@
 import React from "react";
 import ConvenesGrid from "../components/ConveneGrid";
-import ConvenesData from "../assets/images/convenes/convenesData";
+import ConvenesData from "../../public/assets/images/convenes/convenesData";
 
 export default function ConvenesPage(){
     return (

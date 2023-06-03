@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { useSpring, animated } from "react-spring";
-import image1 from "../assets/images/Home.jpeg";
-import image2 from "../assets/images/michael-fousert-CrU3lUW2jRk-unsplash.png";
+import image1 from "../../public/assets/images/Home.jpeg";
+import image2 from "../../public/assets/images/michael-fousert-CrU3lUW2jRk-unsplash.png";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 

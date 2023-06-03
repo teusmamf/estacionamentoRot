@@ -1,9 +1,9 @@
 import React  from "react";
 import SliderComponent from "../components/slider";
 import CompanyGrid from "../components/companyGrid";
-import empresas from "../assets/images/companiesData";
+import empresas from "../../public/assets/images/companiesData";
 import PartnersGrid from "../components/PartnersGrid";
-import PartersData from "../assets/images/Partners/PartnersData";
+import PartersData from "../../public/assets/images/Partners/PartnersData";
 import Footer from "../components/footer";
 export default function Home(){
 

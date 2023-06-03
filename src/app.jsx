@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import CardEmpresa from "./components/companies";
 import Contatenos from "./pages/contate-nos";
-import empresas from "./assets/images/companiesData";
+import empresas from "../public/assets/images/companiesData";
 import Navbar from "./components/navbar";
 import SobreNos from "./pages/sobrenos";
-import PartersData from "./assets/images/Partners/PartnersData";
+import PartersData from "../public/assets/images/Partners/PartnersData";
 import PartnerCard from "./components/Partners";
-import ConvenesData from "./assets/images/convenes/convenesData";
+import ConvenesData from "../public/assets/images/convenes/convenesData";
 import ConvenesCard from "./components/ConvenesCard";
 import ConvenesPage from "./pages/Convenes";
 

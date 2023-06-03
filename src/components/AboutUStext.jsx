@@ -1,6 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
-import cars from '../assets/images/Shutterstock_248053633-1.png'
+import cars from '../../public/assets/images/Shutterstock_248053633-1.png'
 
 const TextoSobreNos = () => {
   const textAnimation = useSpring({
