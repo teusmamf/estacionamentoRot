@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&family=Karla:ital@1&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.convene_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define quatro colunas com a mesma largura */
+  grid-gap: 20px; /* Define o espaçamento entre os cards */
+}
+
+
+.card_single {
+  position: relative;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+ background-color: #5c0101;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0 10px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link.active {
+  color: #ff0000;
+}
+
+.unity_title{
+  font-size: 35px;
+  color: rgb(124, 112, 112);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.partner_card{
+  align-items: center;
+  width: 220px;
+  height: 224px;
+}
+
+.partners_title{
+  font-size: 35px;
+  color: rgb(124, 112, 112);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link-home:hover img {
+  transform: scale(1.2);
+  transition: transform 0.8s;
+}
+
+
+.info-overlay {
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(216, 32, 32, 0.5);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+.partners-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.convenes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partners_title{
+  display: flex;
+  justify-content:center;
+}
+
+
+.partners_title{
+  display: flex;
+  justify-content:center;
+}
+
+.partner_card {
+  width: 200px;
+  height: 224px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  box-shadow: 20px 20px 20px 10px rgba(226, 0, 0, 0.2);
+}
+
+
+.convenes-card{
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  box-shadow: 20px 20px 20px 10px rgba(226, 0, 0, 0.2);
+}
+
+.partner_card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.partners-card:hover {
+  transform: scale(1.1);
+}
+
+.unity_title{
+  display: flex;
+  justify-content: center;
+}
+
+.info-overlay h1 {
+  padding: 30px;
+  align-items: center;
+  margin: 50px;
+  font-size: 50px;
+  
+}
+
+.img_convenes{
+  width: 100%;
+  height:100%;
+}
+.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(139, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 110px;
+  height: 98%;
+}
+
+
+.name:hover {
+  opacity: 1;
+}
+
+
+.contact {
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(139, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  width: 130px;
+  margin-left: 120px;
+  height: 98%;
+}
+
+
+.contact:hover {
+  opacity: 1;
+}
+
+.menu.hidden {
+  display: none;
+}
+
+.instagram-icon {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  transition: color 0.3s;
+  padding: 5px;
+}
+
+
+
+.email_icon{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  transition: color 0.3s;
+  padding: 5px;
+  fill: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.instagram-icon:hover {
+  color:rgb(75, 1, 1);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  
+}
+
+
+.logo_footer{
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+}
+
+footer {
+  background:rgb(75, 1, 1);
+  color: white;
+  position: relative; /* Adicione esta linha */
+  z-index: 1; /* Adicione esta linha */
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information_footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.instagram_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+
+}
+
+.email_icon{
+  margin-bottom: 15px;
+}
+.icon_and_info{
+  display: flex;
+  align-items: center;
+}
+
+.contact_container{
+  align-items: center;
+  padding: 30px;
+
+}
+
+.phone_icon{
+  margin-bottom: 28px;
+  margin-right: 5px;
+}
+
+
+.email_container{
+  align-items: center;
+  padding: 30px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;  
+
+}
+
+.information_footer span {
+  margin-bottom: 10px;
+}
+
+.copyright{
+  margin-top: 80px;
+  margin-right: 10px;
+}
+.logo_home{
+    width: 80px;
+    height: 80px;
+}
+
+
+.img_card{
+ height: 200px;
+
+}
+
+.img_and_info {
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.card_container{
+    display: flex;
+    justify-content:center;
+}
+
+
+
+.button {
+  font-size: 30px;
+  width: fit-content;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #8b0000;
+  
+}
+.wppIcon{
+  align-items: center;
+}
+
+
+.whatsapp_icon:hover {
+  /* Estilos de animação para o hover */
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  align-items: center;
+}
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #360000;
+  box-shadow: 4px 5px 17px -4px #5c0101;;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: left;
+  width: 101%;
+  height: 100%;
+  background-color:#5c0101;
+  z-index: -1;
+  transition: transform 1000ms;
+}
+
+.button:hover::before {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.card_single{
+  font-family: 'Karla', sans-serif;
+  justify-content: center;
+  margin-top: 20px;
+  width: 250px;
+  box-shadow: 20px 20px 20px 10px rgba(226, 0, 0, 0.2);
+  justify-content: center;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  height: 300px;
+}
+
+.card_single:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.link_container{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.company_grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+
+.partners_grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.name{
+  padding-left: 20px;
+}
+
+.card_container{
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.information_footer{
+  display: flex;
+  justify-content: center;
+  padding-right:100px ;
+  margin-right: 100px;
+}
+
+
+footer p{
+  margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+  .navbar {
+    align-items: center;
+    padding: 20px;
+    background-color: #5c0101;
+  }
+
+  .partners_card{
+    align-items: center;
+    width: 220px;
+    height: 224px;
+  }
+.company_grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.convene_grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Define quatro colunas com a mesma largura */
+  grid-gap: 20px; /* Define o espaçamento entre os cards */
+}
+
+  
+
+  .button{
+    width: 80px;
+    font-size: 10px;
+    height: 15px;
+  }
+
+  .link_container{
+    padding: 2px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .unity_title,
+  .partners_title {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .info-overlay {
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(216, 32, 32, 0.5);
+    text-align: center;
+    color: white;
+    justify-content: center;
+  }
+  
+
+  .partners-card,
+  .convenes-card {
+    width: 100%;
+  }
+
+  .logo_footer {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+  }
+
+  footer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .information_footer {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .instagram_container,
+  .contact_container,
+  .email_container {
+    padding: 0px;
+    border: none;
+  }
+
+  
+
+  .partners_grid,
+  .company_grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .card_single {
+    width: 200px;
+    height: 250px;
+    box-shadow: 10px 10px 5px 5px rgba(226, 0, 0, 0.2);
+  }
+
+  .name {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  /* Estilos para telas menores que 480px */
+  .navbar {
+    display: flex;
+    padding: 0px;
+    margin-left: 0px;
+    justify-content: flex-start;
+    height: 80px;
+    background-color: #5c0101;
+  }
+  .partners_card{
+    align-items: center;
+    width: 220px;
+    height: 224px;
+  }
+
+  .convene_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Define quatro colunas com a mesma largura */
+    grid-gap: 20px; /* Define o espaçamento entre os cards */
+  }
+  
+   button{
+    width: 80px;
+    height: 80px;
+  }
+ 
+  .nav-link {
+    font-size: 12px;
+    padding-right: 20px;
+    margin-right: 0px ;
+    display: flex;
+  }
+
+  .unity_title,
+  .partners_title {
+    font-size: 30px;
+  }
+
+
+  .convenes-card {
+    width: 100%;
+  }
+
+  .logo_footer {
+    display:none;
+  }
+
+  footer {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .information_footer {
+    display: flex;
+    align-items: center;
+ 
+  }
+
+  .instagram_container,
+  .contact_container,
+  .email_container {
+    padding: 10px;
+  }
+
+  .partners_grid,
+  .company_grid {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+
+  .card_single {
+    width: 200px;
+    height: 250px;
+  }
+
+  .name {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  .info-overlay{
+    width: 260px;
+    left: 50%;
+  }
+
+  .info-overlay h1 {
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+
+

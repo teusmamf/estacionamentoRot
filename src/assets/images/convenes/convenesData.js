@@ -1,0 +1,49 @@
+const ConvenesData = [
+    {
+        id:0,
+        name:'anesstevel',
+        photo:'anesstevel.jpeg',
+    },
+    {
+        id:1,
+        name:'Audibel',
+        photo:'Audibel.jpeg',
+    },
+    {
+        id:2,
+        name:'CIES',
+        photo:'CIES.jpeg',
+    },
+    {
+        id:3,
+        name:'clinicaDotorax',
+        photo:'clinicaDotorax.jpeg',
+    },
+    {
+        id:4,
+        name:'LabAlvaro',
+        photo:'LabAlvaro.jpeg',
+    },
+    {
+        id:5,
+        name:'RoveCardio',
+        photo:'RoveCardio.jpeg',
+    },
+    {
+        id:6,
+        name:'Rover',
+        photo:'Rover.jpeg',
+    },
+    {
+        id:7,
+        name:'Sensus',
+        photo:'Sensus.jpeg',
+    },
+    {
+        id:8,
+        name:'vogliaorto',
+        photo:'vogliaorto.jpeg',
+    },
+]
+
+export default ConvenesData 
