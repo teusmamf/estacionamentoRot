@@ -1,6 +1,7 @@
 import React from "react";
 import TextoSobreNos from "../components/AboutUStext";
 import ServicesText from "../components/servicetext";
+import Footer from "../components/footer";
 
 
 export default function SobreNos(){
@@ -8,6 +9,7 @@ export default function SobreNos(){
         <div>
              <TextoSobreNos/>
              <ServicesText/>
+             <Footer/>
         </div>
     )
 }

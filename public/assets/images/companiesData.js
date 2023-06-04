@@ -47,7 +47,7 @@ const empresas = [
     },
     {
       id: 5,
-      photo: 'maranhao734.png',
+      photo: 'maranhao734 (1).png',
       complement:'',
       Address: 'Rua Maranhão, 734',
       url:'https://www.google.com/maps/place/R.+Maranh%C3%A3o,+734+-+Centro,+Cascavel+-+PR,+85801-051/@-24.9613219,-53.459742,17z/data=!3m1!4b1!4m6!3m5!1s0x94f3d4151a22758f:0xd66cdf964724ed99!8m2!3d-24.9613219!4d-53.4571671!16s%2Fg%2F11csc87cr9',

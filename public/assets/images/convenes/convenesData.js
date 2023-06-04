@@ -44,6 +44,21 @@ const ConvenesData = [
         name:'vogliaorto',
         photo:'vogliaorto.jpeg',
     },
+    {
+        id:9,
+        name:'odontiaEspecializada',
+        photo:'ortodontiaeesp.jpeg',
+    },
+    {
+        id:10,
+        name:'OncoFeminina',
+        photo:'oncoFeminina.jpeg',
+    },
+    {
+        id:11,
+        name:'InstiitutoVida',
+        photo:'InstiitutoVida.jpeg',
+    },
 ]
 
 export default ConvenesData 

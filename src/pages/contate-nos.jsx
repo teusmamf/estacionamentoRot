@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSpring, animated } from 'react-spring';
 import axios from "axios";
+import Footer from "../components/footer";
 
 const ContactForm = () => {
 
@@ -105,6 +106,7 @@ const ContactForm = () => {
               </g>
         </svg>
       </animated.div>
+
     </div>
   );
 };
