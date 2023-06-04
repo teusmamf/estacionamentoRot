@@ -20,25 +20,25 @@ const Card = (props) => {
    
   });
 
-  useEffect(() => {
-    const loadImage = async () => {
-      try {
-        const image = await import(`./images/${props.photo}`);
-        setImageSrc(image.default);
-        console.log(image);
-      } catch (error) {
-        console.error('error to load the image:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const loadImage = async () => {
+  //     try {
+  //       const image = await import(`./images/${props.photo}`);
+  //       setImageSrc(image.default);
+  //       console.log(image);
+  //     } catch (error) {
+  //       console.error('error to load the image:', error);
+  //     }
+  //   };
   
-    loadImage();
-  }, [props.photo]);
+  //   loadImage();
+  // }, [props.photo]);
   
   return (
     <animated.div ref={ref} className={`card_container ${inView ? 'in_view' : ''}`} style={slideAnimation}>
       <div className='card_single'>
         <div className='img_and_info'>
-        <img src={imageSrc} alt={props.Address} className='img_card' />
+        <img src={`/images/${props.photo}`} alt={props.Address} className='img_card' />
         <div className="name">{props.Address}<br></br>
           {props.complement} </div>
        
