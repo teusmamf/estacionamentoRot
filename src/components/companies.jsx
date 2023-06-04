@@ -23,7 +23,7 @@ const Card = (props) => {
   useEffect(() => {
     const loadImage = async () => {
       try {
-        const image = await import(`./assets/images/${props.photo}`);
+        const image = await import(`/images/${props.photo}`);
         setImageSrc(image.default);
         console.log(image);
       } catch (error) {
