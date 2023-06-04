@@ -16,24 +16,24 @@ const ConvenesCard = (props) => {
     transition: inView ? "1.5s" : "",
   });
 
-  useEffect(() => {
-    const loadImage = async () => {
-      try {
-        /* @vite-ignore */
-        const image = await import(`../../public/assets/images/convenes/${props.photo}`);
-        setImageSrc(image.default);
-      } catch (error) {
-        console.error("Erro ao carregar a imagem:", error);
-      }
-    };
+  // useEffect(() => {
+  //   const loadImage = async () => {
+  //     try {
+  //       /* @vite-ignore */
+  //       const image = await import(`../../public/assets/images/convenes/${props.photo}`);
+  //       setImageSrc(image.default);
+  //     } catch (error) {
+  //       console.error("Erro ao carregar a imagem:", error);
+  //     }
+  //   };
 
-    loadImage();
-  }, [props.photo]);
+  //   loadImage();
+  // }, [props.photo]);
 
   return (
     <animated.div className="convenes-container" ref={ref} style={slideAnimation}>
       <div cardKey={props.key} className="convenes-card">
-        <img src={imgSrc} alt={props.name} className="img_convenes" />
+        <img src={`../../assets/images/convenes/${props.photo}`} alt={props.name} className="img_convenes" />
       </div>
     </animated.div>
   );

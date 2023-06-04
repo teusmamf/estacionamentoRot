@@ -16,23 +16,23 @@ const PartnerCard = (props) => {
     transition: inView ? "1.5s" : "",
   });
 
-  useEffect(() => {
-    const loadImage = async () => {
-      try {
-        const image = await import(`./images/Partners/${props.photo}`);
-        setImageSrc(image.default);
-      } catch (error) {
-        console.error("Erro ao carregar a imagem:", error);
-      }
-    };
+  // useEffect(() => {
+  //   const loadImage = async () => {
+  //     try {
+  //       const image = await import(`./images/Partners/${props.photo}`);
+  //       setImageSrc(image.default);
+  //     } catch (error) {
+  //       console.error("Erro ao carregar a imagem:", error);
+  //     }
+  //   };
 
-    loadImage();
-  }, [props.photo]);
+  //   loadImage();
+  // }, [props.photo]);
 
   return (
     <animated.div className="partner_card" ref={ref} style={slideAnimation}>
       <div className="partner-logo">
-        <img src={imgSrc} alt={props.name} className="partner_image" />
+        <img src={`../../assets/images/Partners/${props.photo}`} alt={props.name} className="partner_image" />
       </div>
     </animated.div>
   );
