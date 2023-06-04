@@ -38,7 +38,7 @@ const Card = (props) => {
     <animated.div ref={ref} className={`card_container ${inView ? 'in_view' : ''}`} style={slideAnimation}>
       <div className='card_single'>
         <div className='img_and_info'>
-        <img src={`/images/${props.photo}`} alt={props.Address} className='img_card' />
+        <img src={`./images/${props.photo}`} alt={props.Address} className='img_card' />
         <div className="name">{props.Address}<br></br>
           {props.complement} </div>
        
