@@ -106,7 +106,7 @@ const ContactForm = () => {
               </g>
         </svg>
       </animated.div>
-
+     
     </div>
   );
 };

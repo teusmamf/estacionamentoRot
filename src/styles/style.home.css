@@ -504,7 +504,6 @@ footer p{
   grid-gap: 20px; /* Define o espaçamento entre os cards */
 }
 
-  
 
   .button{
     width: 80px;
@@ -608,12 +607,13 @@ footer p{
     height: 80px;
     background-color: #5c0101;
   }
-  .partner_card{
+
+.partner_card{
     align-items: center;
     width: 220px;
     height: 224px;
     margin-left: 60px;
-  }
+}
 
 
   .convene_grid {
