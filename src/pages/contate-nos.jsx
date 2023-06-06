@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState ,useRef } from "react";
 import { useSpring, animated } from 'react-spring';
 import axios from "axios";
-import Footer from "../components/footer";
 
 const ContactForm = () => {
 
@@ -10,7 +9,11 @@ const ContactForm = () => {
   const [subject, setSubject] = useState("");
   const [description, setDescription] = useState("");
   const [showDiv, setShowDiv] = useState(false);
-  
+  const form = document.querySelector('#form_contact_us');
+
+  function limparFormulario() {
+    form.reset();
+  }
 
   const slideAnimation = useSpring({
     to: {
@@ -39,7 +42,7 @@ const ContactForm = () => {
 
     try {
       // Envie o e-mail
-      await axios.post('http://localhost:3000/send_email', requestData);
+      await axios.post('https://back-end-teusmamf.vercel.app/send_email', requestData);
 
       console.log('E-mail enviado com sucesso!');
 
@@ -47,11 +50,13 @@ const ContactForm = () => {
 
       console.error('Erro ao enviar o e-mail:', error);
     }
+
+    limparFormulario();
   };
 
   return (
     <div className="contact-form">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} id="form_contact_us" >
         <label htmlFor="name">Nome:</label>
         <input
           type="text"
@@ -94,6 +99,7 @@ const ContactForm = () => {
         ></textarea>
 
         <button type="submit">Enviar</button>
+        
       </form>
 
       <animated.div className="let_get_in_touch" style={slideAnimation}>
