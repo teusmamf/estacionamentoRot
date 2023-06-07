@@ -99,7 +99,7 @@ const SliderComponent = () => {
               className="images"
               src={item.image}
               alt={item.caption}
-              style={{ maxWidth: '100%', maxHeight: '80%', objectFit: 'cover' }}
+              style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'cover' }}
             />
             <h3>{item.caption}</h3>
           </div>

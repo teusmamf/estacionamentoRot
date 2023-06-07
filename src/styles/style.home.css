@@ -463,6 +463,22 @@ footer p{
   margin: 0;
 }
 
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .slider-item {
+    height: 400px;
+  }
+  .images{
+    width: 2120px;
+  }
+
+  .information_footer {
+    display: flex;
+    align-items: center;
+    margin-right: 600px;  
+  }
+
+}
+
 
 @media screen and (max-width: 768px) {
   /* Estilos para telas menores que 768px */
@@ -493,6 +509,7 @@ footer p{
     width: 220px;
     height: 224px;
     margin-left: 30px;
+    background-color: #f0f1f3;
   }
 .company_grid {
   display: grid;
