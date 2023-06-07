@@ -463,7 +463,21 @@ footer p{
   margin: 0;
 }
 
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .slider-item {
+    height: 400px;
+  }
+  .images{
+    width: 2120px;
+  }
 
+  .information_footer {
+    display: flex;
+    align-items: center;
+    margin-right: 600px;  
+  }
+
+}
 
 
 @media screen and (max-width: 768px) {
