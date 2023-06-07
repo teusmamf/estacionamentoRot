@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { useSpring, animated } from "react-spring";
 import image1 from "../../public/assets/images/Home.jpeg";
-import image2 from "../../public/assets/images/michael-fousert-CrU3lUW2jRk-unsplash.png";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -80,11 +79,7 @@ const SliderComponent = () => {
     {
       image: image1,
       caption: '',
-    },
-    {
-      image: image2,
-      caption: '',
-    },
+    }
   ];
 
   return (
