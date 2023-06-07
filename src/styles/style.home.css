@@ -601,9 +601,7 @@ footer p{
     border: none;
   }
 
-  .contact_container{
 
-  }
   
   .company_grid {
     grid-template-columns: repeat(1, minmax(250px, 1fr));
