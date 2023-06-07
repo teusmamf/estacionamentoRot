@@ -464,13 +464,12 @@ footer p{
 }
 
 @media (min-width: 1920px) and (min-height: 1080px) {
-  .slider-item {
-    height: 400px;
-  }
-  .images{
+  .slider-item img{
     width: 2300px;
   }
 
+
+  
   .information_footer {
     display: flex;
     align-items: center;

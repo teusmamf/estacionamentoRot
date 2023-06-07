@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import { useSpring, animated } from "react-spring";
-import image1 from "../../public/assets/images/Home.jpeg";
+import image1 from "../../public/assets/images/michael-fousert-CrU3lUW2jRk-unsplash.png";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -91,10 +91,10 @@ const SliderComponent = () => {
             style={{ display: 'flex', justifyContent: 'center', height: '200px', padding: 0, backgroundColor: 'black', position: 'relative' }}
           >
             <img
-              className="images"
+              className="images_home"
               src={item.image}
               alt={item.caption}
-              style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'cover' }}
+              style={{objectFit: 'cover' ,maxWidth:'100%',maxHeight:'80%'}}
             />
             <h3>{item.caption}</h3>
           </div>
