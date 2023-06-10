@@ -455,7 +455,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(5, minmax(220px, 1fr));
   grid-gap: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   justify-content: center;
 }
 
