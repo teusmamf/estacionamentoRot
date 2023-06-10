@@ -13,12 +13,12 @@ export default function Navbar() {
         Sobre Nós
       </NavLink>
 
-      <NavLink to="/contate-nos" className="nav-link" activeClassName="active">
-        Contate-nos
-      </NavLink>
-
       <NavLink to="/Convenes" className="nav-link" activeClassName="active">
         Convênios
+      </NavLink>
+
+      <NavLink to="/contate-nos" className="nav-link" activeClassName="active">
+        Contate-nos
       </NavLink>
     </div>
   );

@@ -7,11 +7,16 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 
 }
+.name_footer{
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
 
 .convene_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Define quatro colunas com a mesma largura */
   grid-gap: 20px; /* Define o espaçamento entre os cards */
+  margin-bottom: 80px;
 }
 
 
@@ -97,7 +102,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(216, 32, 32, 0.5);
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   color: white;
 }
@@ -168,8 +173,8 @@ body{
 .info-overlay h1 {
   padding: 30px;
   align-items: center;
-  margin: 50px;
-  font-size: 50px;
+  margin: 35px;
+  font-size: 40px;
   
 }
 
@@ -226,9 +231,9 @@ body{
 
 .instagram-icon {
   color: rgb(255, 255, 255);
-  font-size: 24px;
+  width: 30px;
+  font-size: 30px;
   transition: color 0.3s;
-  padding: 5px;
 }
 
 
@@ -248,8 +253,7 @@ html {
 .instagram-icon:hover {
   color:rgb(75, 1, 1);
   background-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  
+  border-radius: 5px;
 }
 
 
@@ -266,7 +270,7 @@ footer {
   z-index: 1; /* Adicione esta linha */
   height: 180px;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
 }
 
@@ -284,12 +288,14 @@ footer {
 
 }
 
+
 .email_icon{
   margin-bottom: 15px;
 }
 .icon_and_info{
   display: flex;
   align-items: center;
+  height: 30px;
 }
 
 .contact_container{
@@ -297,16 +303,28 @@ footer {
   padding: 30px;
 
 }
+.contact_container_final{
+  align-items: center;
+  padding: 30px;
+
+}
+
 
 .phone_icon{
   margin-bottom: 28px;
   margin-right: 5px;
 }
 
+.loc_container{
+  display: flex;
+  padding-top: 10px;
+  text-align: center;
+  margin-right: 25px;
+}
 
 .email_container{
   align-items: center;
-  padding: 30px;
+  padding: 25px;
   border-left: 1px solid white;
   border-right: 1px solid white;  
 
@@ -435,8 +453,8 @@ footer {
 
 .partners_grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(300px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(5, minmax(220px, 1fr));
+  grid-gap: 10px;
   justify-content: center;
 }
 
@@ -554,7 +572,7 @@ footer p{
 
   .info-overlay {
     border-radius: 10px;
-    width: 200px;
+    width: 180px;
     height: 100px;
     display: flex;
     top: 50%;
@@ -586,6 +604,7 @@ footer p{
     padding: 20px;
   }
 
+  
   .information_footer {
     flex-direction: column;
     align-items: center;
@@ -702,9 +721,8 @@ footer p{
       padding-right: 53px;  
       padding-left: 0px;
   }
+ 
   
-
-
   .company_grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }

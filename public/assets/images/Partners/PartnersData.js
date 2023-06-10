@@ -19,6 +19,11 @@ const PartersData = [
         photo:'Gastroclinicca.jpeg',
         name:'Gastroclinica',
     },
+    {
+        id:4,
+        photo:'logoDay.jpeg',
+        name:'logoDay',
+    },
 
 ]
 

@@ -19,9 +19,9 @@ const SliderComponent = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setEstabelecimentos((prevEstabelecimentos) => {
-        if (prevEstabelecimentos >= 11) {
+        if (prevEstabelecimentos >= 10) {
           clearInterval(timer);
-          return 11;
+          return 10;
         } else {
           return prevEstabelecimentos + 1;
         }
