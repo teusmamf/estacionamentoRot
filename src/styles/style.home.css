@@ -64,7 +64,7 @@ body{
   align-items: center;
   width: 220px;
   height: 224px;
-  
+  background-color: #f4f4f3;
 }
 
 .partners_title{
@@ -486,15 +486,10 @@ footer p{
 }
 
 @media (min-width: 1920px) and (min-height: 1080px) {
-  .slider-item.images_home{
+  .slider-item img{
     width: 2300px;
   }
 
-.images_home{
-  width: 2150px;
-  height: 1500px;
-}
-  
   .information_footer {
     display: flex;
     align-items: center;

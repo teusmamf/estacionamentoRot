@@ -10,7 +10,7 @@ const ContactForm = () => {
   const [description, setDescription] = useState("");
   const [showDiv, setShowDiv] = useState(false);
   const form = document.querySelector('#form_contact_us');
-
+  const [confirmation, Setconfirmation] = useState(false);
   function limparFormulario() {
     form.reset();
   }
@@ -43,15 +43,16 @@ const ContactForm = () => {
     try {
       // Envie o e-mail
       await axios.post('https://back-end-teusmamf.vercel.app/send_email', requestData);
-
+      Setconfirmation(true)
       console.log('E-mail enviado com sucesso!');
 
     } catch (error) {
 
       console.error('Erro ao enviar o e-mail:', error);
     }
-
+    
     limparFormulario();
+    
   };
 
   return (
@@ -98,7 +99,7 @@ const ContactForm = () => {
           required
         ></textarea>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button> <span className={confirmation ? "confirmation_email" : "confirmation_email_visible" }>Email enviado!</span>
         
       </form>
 
