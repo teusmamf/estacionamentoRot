@@ -58,10 +58,13 @@ body{
   justify-content: center;
  
 }
+
+
 .partner_card{
   align-items: center;
   width: 220px;
   height: 224px;
+  
 }
 
 .partners_title{
