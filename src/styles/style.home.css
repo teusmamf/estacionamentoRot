@@ -480,6 +480,9 @@ footer {
   margin-right: 200px;
 }
 
+.locality_and_cep{
+  font-size: 14px;
+}
 
 footer p{
   margin: 0;

@@ -23,13 +23,16 @@ form h2 {
   margin-bottom: 5px;
 }
 
-.confirmation_email{
-  visibility: hidden;
+.check_icon{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
-
-.confirmation_email_visible{
-  visibility: visible;
+.confirmation_email{
+  font-size: 15px;
+  color: black;
 }
 
 textarea {
