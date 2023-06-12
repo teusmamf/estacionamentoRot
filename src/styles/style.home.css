@@ -486,11 +486,14 @@ footer p{
 }
 
 @media (min-width: 1920px) and (min-height: 1080px) {
-  .slider-item img{
+  .slider-item.images_home{
     width: 2300px;
   }
 
-
+.images_home{
+  width: 2150px;
+  height: 1500px;
+}
   
   .information_footer {
     display: flex;
