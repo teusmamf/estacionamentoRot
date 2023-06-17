@@ -18,7 +18,7 @@ export default function Footer() {
         >
           <FontAwesomeIcon icon={faInstagram} className="instagram-icon"  />
         </a>
-        <span>jmestacionamentos</span>
+       
         </div>
 
         <div className="email_container">
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
         <div className="sector_and_cellphone">
         <span >Administração</span><br></br>
-         <span>(45) 999829-4907</span>
+         <span>(45) 99829-4907</span>
          </div>
         </div>
       </div>

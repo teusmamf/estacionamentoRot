@@ -3,7 +3,7 @@ import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 import wallpaper from '../../public/assets/images/parking (1).png';
 import wallpaper2 from '../../public/assets/images/camera-de-seguranca.png'
-import wallpaper3 from '../../public/assets/images/employees.png'
+import wallpaper3 from '../../public/assets/images/employees (1).png'
 
 const ServicesText = () => {
   const [ref1, inView1] = useInView({
@@ -30,6 +30,7 @@ const ServicesText = () => {
 
   const textAnimation3 = useSpring({
     opacity: inView3 ? 1 : 0,
+    
     transform: inView3 ? "translateY(0)" : "translateY(20px)",
     config: { duration: 1000 },
   });
@@ -62,7 +63,7 @@ const ServicesText = () => {
           Aqui todos são capacitados para exercerem suas respectivas funções, desde o cuidado com o 
           ambiente pela limpeza e organização até o relacionamento com o cliente final com o intuito de garantirem um serviço para além de excelente, 
           fato esse que auxilia constantemente no desempenho de nossa empresa. </p>
-          <img src={wallpaper3} alt="car_icon" />
+          <img src={wallpaper3} alt="car_icon_3" />
       </animated.div>
     </div>
   );

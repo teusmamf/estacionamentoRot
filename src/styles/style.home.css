@@ -12,6 +12,11 @@ body{
   margin-top: 0px;
 }
 
+.car_icon_3{
+  width: 200px;
+  height: 200px;
+}
+
 .convene_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Define quatro colunas com a mesma largura */
@@ -309,7 +314,7 @@ footer {
 .contact_container_final{
   align-items: center;
   padding: 30px;
-
+ 
 }
 
 
@@ -353,6 +358,7 @@ footer {
 }
 
 .img_and_info {
+  font-size: 15px;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
@@ -504,6 +510,11 @@ footer p{
 
 @media screen and (max-width: 768px) {
   /* Estilos para telas menores que 768px */
+  .img_and_info {
+    border-radius: 8px;
+    font-size: 15px;  
+  }
+  
   .navbar {
     align-items: center;
     padding: 20px;
@@ -754,6 +765,17 @@ footer p{
     margin-right: 0px;
     margin-left: 0px;
   }
+  .img_and_info {
+    font-size: 10px;
+   }
+   
+   .contact_container_final{
+    align-items: center;
+    margin-right: 45px;
+    padding: 0px;
+   
+  }
+  
 }
 
 

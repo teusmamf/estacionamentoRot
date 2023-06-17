@@ -30,7 +30,7 @@ const empresas = [
     {
       id: 3,
       photo: 'minasgerais.png',
-      complement:'Ed. Green',
+      complement:'Ed. Day Saúde',
       Address: 'Rua Minas Gerais 2061',
       url:'https://www.google.com.br/maps/place/R.+Minas+Gerais,+2061+-+Centro,+Cascavel+-+PR,+85812-035/@-24.9493866,-53.4530555,17z/data=!3m1!4b1!4m6!3m5!1s0x94f3d47225e7e541:0x1fbf5189aedee238!8m2!3d-24.9493915!4d-53.4504806!16s%2Fg%2F11c2c_23ky',
       func:'Seg à Sex 08:00-18:00',
@@ -43,7 +43,7 @@ const empresas = [
       Address: 'Rua Maranhão 904',
       url:'https://www.google.com/maps/place/R.+Maranh%C3%A3o,+904+-+Centro,+Cascavel+-+PR,+85801-051/@-24.9609389,-53.4612896,17z/data=!3m1!4b1!4m6!3m5!1s0x94f3d41452ec3fb1:0xfb48950dd63caa46!8m2!3d-24.9609438!4d-53.4587147!16s%2Fg%2F11csc0s3g6',
       func:'Atendimento 24h',
-      contact:'(45) 99829-4907',
+      contact:'(45) 99829-4907\n(45) 99831-7736',
     },
     {
       id: 5,
@@ -53,7 +53,17 @@ const empresas = [
       url:'https://www.google.com/maps/place/R.+Maranh%C3%A3o,+734+-+Centro,+Cascavel+-+PR,+85801-051/@-24.9613219,-53.459742,17z/data=!3m1!4b1!4m6!3m5!1s0x94f3d4151a22758f:0xd66cdf964724ed99!8m2!3d-24.9613219!4d-53.4571671!16s%2Fg%2F11csc87cr9',
       func:'Seg à Sex 08:00-18:00',
       contact:'(45) 99943-3993\n(45) 99829-4907',
+    },
+    {
+      id: 6,
+      photo: 'CEBRALE.jpeg',
+      complement:'Cebrale',
+      Address: 'Rua Dom Pedro II, 2345',
+      url:'https://www.google.com/maps/place/R.+Dom+Pedro+II,+2345+-+Centro,+Cascavel+-+PR,+85812-120/@-24.9491157,-53.4542586,17z/data=!3m1!4b1!4m6!3m5!1s0x94f3d473b3560809:0xc65493c972f7b604!8m2!3d-24.9491157!4d-53.4516837!16s%2Fg%2F11kf3dc48s?entry=ttu',
+      func:'Seg à Sex 08:00-18:00',
+      contact:'(45) 99943-3993\n(45) 99829-4907',
     }
+
 
   ];
   
