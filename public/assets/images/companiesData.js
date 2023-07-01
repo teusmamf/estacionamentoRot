@@ -62,6 +62,15 @@ const empresas = [
       url:'https://www.google.com/maps/place/R.+Dom+Pedro+II,+2345+-+Centro,+Cascavel+-+PR,+85812-120/@-24.9491157,-53.4542586,17z/data=!3m1!4b1!4m6!3m5!1s0x94f3d473b3560809:0xc65493c972f7b604!8m2!3d-24.9491157!4d-53.4516837!16s%2Fg%2F11kf3dc48s?entry=ttu',
       func:'Seg à Sex 08:00-18:00',
       contact:'(45) 99943-3993\n(45) 99829-4907',
+    },
+    {
+      id: 7,
+      photo: 'RuaAfonsoPena.jpeg',
+      complement:'Gastroclínica',
+      Address: 'Rua Afonso Pena, 1879 - Centro',
+      url:'https://www.google.com/maps/place/R.+Afonso+Pena,+1879+-+Centro,+Cascavel+-+PR,+85812-101/@-24.9514281,-53.4538469,18.21z/data=!4m6!3m5!1s0x94f3d4728fdcdff3:0x149f3c11746ae273!8m2!3d-24.9512713!4d-53.453356!16s%2Fg%2F11stygrzmn?entry=ttu',
+      func:'Seg à Sex 08:00-18:00',
+      contact:'(45) 99943-3993\n(45) 99829-4907',
     }
 
 

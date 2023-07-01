@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faFacebook,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import logo from '../../public/assets/images/logo.png';
 
 export default function Footer() {
@@ -17,8 +17,24 @@ export default function Footer() {
           className="instagram-link"
         >
           <FontAwesomeIcon icon={faInstagram} className="instagram-icon"  />
+
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100094209275303"
+        target="blank"
+        rel="noopener noreferrer"
+        className="facebook-link">
+           <FontAwesomeIcon icon={faFacebook} className="instagram-icon"  />
+
         </a>
        
+        <a href="https://www.linkedin.com/company/jmestacionamentos/"
+         target="blank"
+         rel="noopener noreferrer"
+         className="facebook-link"> 
+          <FontAwesomeIcon icon={faLinkedin} className="instagram-icon"  />
+
+         </a>
         </div>
 
         <div className="email_container">
