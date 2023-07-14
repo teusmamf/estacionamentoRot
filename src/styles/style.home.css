@@ -143,8 +143,9 @@ body{
   width: 200px;
   height: 224px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin-left: 50px;
   padding: 10px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -164,9 +165,10 @@ body{
 }
 
 .partner_card img {
-  width: 100%;
-  height: auto;
+  width: 60%;
+  height: 40%;
   border-radius: 5px;
+  padding-left: 50px;
 }
 
 .partners-card:hover {
@@ -516,11 +518,15 @@ footer p{
     background-color: #5c0101;
   }
 
+  .partner_image{
+    width: 100px;
+    height: 100px;
+  }
   html{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-
+    overflow-x: hidden;
 }
 
   .contact{
@@ -657,6 +663,7 @@ footer p{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
  
 }
 
@@ -678,7 +685,8 @@ footer p{
     align-items: center;
     width: 220px;
     height: 224px;
-    margin-left: 60px;
+    margin-left: 20%;
+ 
 }
 
 
