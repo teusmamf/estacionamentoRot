@@ -504,6 +504,7 @@ footer p{
 }
 
 
+
 @media screen and (max-width: 768px) {
   /* Estilos para telas menores que 768px */
   .img_and_info {
@@ -658,10 +659,11 @@ footer p{
   html{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-y: hidden;
     font-family: 'Source Sans Pro', sans-serif;
-
+ 
 }
+
   .navbar {
     display: flex;
     padding: 0px;

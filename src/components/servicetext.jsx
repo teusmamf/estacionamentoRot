@@ -7,13 +7,13 @@ import wallpaper3 from '../../public/assets/images/employees (1).png'
 
 const ServicesText = () => {
   const [ref1, inView1] = useInView({
-    triggerOnce: true, // A animação só será acionada uma vez
+    triggerOnce: true, 
   });
   const [ref2, inView2] = useInView({
-    triggerOnce: true, // A animação só será acionada uma vez
+    triggerOnce: true, 
   });
   const [ref3, inView3] = useInView({
-    triggerOnce: true, // A animação só será acionada uma vez
+    triggerOnce: true, 
   });
 
   const textAnimation1 = useSpring({
