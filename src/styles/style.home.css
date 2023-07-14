@@ -260,8 +260,6 @@ html {
 }
 
 
-
-
 .logo_footer{
   width: 150px;
   height: 150px;
@@ -521,7 +519,6 @@ footer p{
   html{
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
     font-family: 'Source Sans Pro', sans-serif;
 
 }
@@ -659,7 +656,6 @@ footer p{
   html{
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
     font-family: 'Source Sans Pro', sans-serif;
  
 }
