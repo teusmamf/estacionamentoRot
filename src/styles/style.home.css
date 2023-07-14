@@ -273,7 +273,7 @@ footer {
   color: white;
   position: relative; /* Adicione esta linha */
   z-index: 1; /* Adicione esta linha */
-  height: 180px;
+  height: 190px;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -555,8 +555,8 @@ footer p{
 }
 .convene_grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Define quatro colunas com a mesma largura */
-  grid-gap: 20px; /* Define o espaçamento entre os cards */
+  grid-template-columns: repeat(1, 1fr); 
+  grid-gap: 20px; 
 }
 
 
@@ -614,7 +614,7 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
   }
 
   
