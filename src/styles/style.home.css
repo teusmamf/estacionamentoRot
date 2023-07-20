@@ -492,7 +492,11 @@ footer p{
 
 @media (min-width: 1920px) and (min-height: 1080px) {
   .slider-item img{
-    width: 2600px;
+    width: 200%;
+  }
+
+  .images_home{
+    width: 200%;
   }
 
   .information_footer {
@@ -502,8 +506,6 @@ footer p{
   }
 
 }
-
-
 
 @media screen and (max-width: 768px) {
   /* Estilos para telas menores que 768px */
