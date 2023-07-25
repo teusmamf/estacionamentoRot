@@ -21,7 +21,7 @@ const PartersData = [
     },
     {
         id:4,
-        photo:'logoDay.jpeg',
+        photo:'logoDay.png',
         name:'logoDay',
     },
 

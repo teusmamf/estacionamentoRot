@@ -13,7 +13,7 @@ const PartnerCard = (props) => {
     transform: inView ? "translate3d(0, 0, 0)" : "translate3d(0, 100%, 0)",
     justifyContent: inView ? "center" : "",
     display: inView ? "flex" : "",
-    transition: inView ? "1.5s" : "",
+    transition: inView ? "0.8s" : "",
   });
 
   // useEffect(() => {
